@@ -1,0 +1,24 @@
+{
+  "name": "prhost/new-opencart",
+  "description": "description_text",
+  "minimum-stability": "dev",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Kallef Alexandre de Souza",
+      "email": "prhost@prhost.com.br"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "prhost/opencommerce-installers": "dev-master",
+    "prhost/opencommerce-core": "2.0.0.x-dev",
+    "prhost/opencommerce-theme-default": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/prhost/opencommerce-theme-default.git"
+    }
+  ]
+}

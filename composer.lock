@@ -1,0 +1,230 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b585c098644d5da4182e95906a591fd3",
+    "content-hash": "d8df1fe1483944313d404db8d19050b2",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-01-27 12:54:22"
+        },
+        {
+            "name": "prhost/opencommerce-core",
+            "version": "2.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prhost/opencommerce-core.git",
+                "reference": "97610c6c45a716d3a2ef5967851ac2f4cfcaf46d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prhost/opencommerce-core/zipball/97610c6c45a716d3a2ef5967851ac2f4cfcaf46d",
+                "reference": "97610c6c45a716d3a2ef5967851ac2f4cfcaf46d",
+                "shasum": ""
+            },
+            "type": "opencommerce-core",
+            "autoload": {
+                "psr-4": {
+                    "Core\\Admin\\": "admin/",
+                    "Core\\Catalog\\": "catalog/",
+                    "Core\\System\\": "system/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kallef",
+                    "email": "prhost@prhost.com.br"
+                }
+            ],
+            "description": "OpenCommerce Core (Opencart)",
+            "time": "2016-01-31 23:10:57"
+        },
+        {
+            "name": "prhost/opencommerce-installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prhost/opencommerce-installers.git",
+                "reference": "e3c88ed2d75e64f6853e9853e5e919ddac2c4046"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prhost/opencommerce-installers/zipball/e3c88ed2d75e64f6853e9853e5e919ddac2c4046",
+                "reference": "e3c88ed2d75e64f6853e9853e5e919ddac2c4046",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Prhost\\ComposerInstallers\\OpenCommerceCoreInstallerPlugin",
+                    "Prhost\\ComposerInstallers\\OpenCommerceExtensionInstallerPlugin",
+                    "Prhost\\ComposerInstallers\\OpenCommerceThemeInstallerPlugin"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "Prhost\\ComposerInstallers": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Kallef Alexandre de Souza",
+                    "email": "prhost@prhost.com.br"
+                }
+            ],
+            "description": "Package installers for OpenCommerce (opencart)",
+            "time": "2016-01-31 23:24:51"
+        },
+        {
+            "name": "prhost/opencommerce-theme-default",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prhost/opencommerce-theme-default.git",
+                "reference": "bb6043264fcad63217a52609cf96ffdd4196e410"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prhost/opencommerce-theme-default/zipball/bb6043264fcad63217a52609cf96ffdd4196e410",
+                "reference": "bb6043264fcad63217a52609cf96ffdd4196e410",
+                "shasum": ""
+            },
+            "type": "opencommerce-theme",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kallef",
+                    "email": "prhost@prhost.com.br"
+                }
+            ],
+            "description": "OpenCommerce Theme default",
+            "support": {
+                "source": "https://github.com/prhost/opencommerce-theme-default/tree/master",
+                "issues": "https://github.com/prhost/opencommerce-theme-default/issues"
+            },
+            "time": "2016-02-01 00:34:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "prhost/opencommerce-installers": 20,
+        "prhost/opencommerce-core": 20,
+        "prhost/opencommerce-theme-default": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
