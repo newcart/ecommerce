@@ -6,8 +6,8 @@ if (is_file(DIR_ROOT . '/config/app.php')) {
 }
 
 //Constants
-if (is_file(DIR_ROOT . '/core/constants.php')) {
-    require_once(DIR_ROOT . '/core/constants.php');
+if (is_file(DIR_ROOT . '/opencart/constants.php')) {
+    require_once(DIR_ROOT . '/opencart/constants.php');
 }
 
 //Config database
@@ -19,3 +19,6 @@ if (is_file(DIR_ROOT . '/config/database.php')) {
 if (is_file(DIR_APPLICATION . 'bootstrap.php')) {
     require_once(DIR_APPLICATION . 'bootstrap.php');
 }
+
+// VirtualQMOD
+\Prhost\System\Vqmod\Vqmod::bootup();

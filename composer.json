@@ -10,9 +10,8 @@
     }
   ],
   "require": {
-    "composer/installers": "~1.0",
-    "prhost/opencommerce-installers": "dev-master",
-    "prhost/opencommerce-core": "2.0.0.x-dev",
+    "prhost/opencommerce-system": "dev-master",
+    "prhost/opencommerce-opencart": "dev-master",
     "prhost/opencommerce-theme-default": "dev-master"
   },
   "repositories": [

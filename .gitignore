@@ -198,7 +198,7 @@ composer.phar
 # composer.lock
 
 ### Core ###
-core/
+opencart/
 
 ### Theme ###
 theme/
