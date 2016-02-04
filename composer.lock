@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prhost/opencommerce-opencart.git",
-                "reference": "c836e0f1a70c84904473ab2e83529c5404fab51c"
+                "reference": "8126de5b23283b341168a8a4396afb1e95ee07f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prhost/opencommerce-opencart/zipball/c836e0f1a70c84904473ab2e83529c5404fab51c",
-                "reference": "c836e0f1a70c84904473ab2e83529c5404fab51c",
+                "url": "https://api.github.com/repos/prhost/opencommerce-opencart/zipball/8126de5b23283b341168a8a4396afb1e95ee07f0",
+                "reference": "8126de5b23283b341168a8a4396afb1e95ee07f0",
                 "shasum": ""
             },
             "type": "opencommerce-opencart",
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "OpenCommerce Opencart v2.0.0.0",
-            "time": "2016-02-01 23:22:25"
+            "time": "2016-02-02 01:42:25"
         },
         {
             "name": "prhost/opencommerce-system",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/prhost/opencommerce-system.git",
-                "reference": "4c52ce16b1ad64a2a574151f28ff738f5a37848f"
+                "reference": "103c0882ae82e73a02b665771e74d548d31d3045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prhost/opencommerce-system/zipball/4c52ce16b1ad64a2a574151f28ff738f5a37848f",
-                "reference": "4c52ce16b1ad64a2a574151f28ff738f5a37848f",
+                "url": "https://api.github.com/repos/prhost/opencommerce-system/zipball/103c0882ae82e73a02b665771e74d548d31d3045",
+                "reference": "103c0882ae82e73a02b665771e74d548d31d3045",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 }
             ],
             "description": "OpenCommerce System",
-            "time": "2016-02-01 23:55:14"
+            "time": "2016-02-02 01:40:10"
         },
         {
             "name": "prhost/opencommerce-theme-default",
