@@ -1,24 +1,19 @@
 <?php
 
 //Config App
-if (is_file(DIR_ROOT . '/config/app.php')) {
-    require_once(DIR_ROOT . '/config/app.php');
-}
+require_once(DIR_ROOT . '/config/app.php');
+
+//Composer autoload
+require_once(DIR_ROOT . '/vendor/autoload.php');
 
 //Constants
-if (is_file(DIR_ROOT . '/opencart/constants.php')) {
-    require_once(DIR_ROOT . '/opencart/constants.php');
-}
+require_once(DIR_ROOT . '/opencart/constants.php');
 
 //Config database
-if (is_file(DIR_ROOT . '/config/database.php')) {
-    require_once(DIR_ROOT . '/config/database.php');
-}
-
-//Bootstrap
-if (is_file(DIR_APPLICATION . 'bootstrap.php')) {
-    require_once(DIR_APPLICATION . 'bootstrap.php');
-}
+require_once(DIR_ROOT . '/config/database.php');
 
 // VirtualQMOD
-\Prhost\System\Vqmod\Vqmod::bootup();
+\Prhost\System\Vqmod\Vqmod::bootup(DIR_STORAGE);
+
+//Bootstrap
+require_once(DIR_APPLICATION . 'bootstrap.php');
