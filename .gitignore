@@ -198,7 +198,11 @@ composer.phar
 # composer.lock
 
 ### Core ###
-opencart/
+core/
 
 ### Theme ###
 theme/
+
+### Config ###
+config/*
+!config/*.dist

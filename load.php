@@ -7,7 +7,7 @@ require_once(DIR_ROOT . '/config/app.php');
 require_once(DIR_ROOT . '/vendor/autoload.php');
 
 //Constants
-require_once(DIR_ROOT . '/opencart/constants.php');
+require_once(DIR_ROOT . '/core/constants.php');
 
 //Config database
 require_once(DIR_ROOT . '/config/database.php');
