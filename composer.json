@@ -1,5 +1,5 @@
 {
-  "name": "prhost/new-opencart",
+  "name": "newcart/ecommerce",
   "description": "description_text",
   "minimum-stability": "dev",
   "license": "GPL-3.0",
@@ -10,14 +10,14 @@
     }
   ],
   "require": {
-    "prhost/opencommerce-system": "dev-master",
-    "prhost/opencommerce-opencart": "dev-master",
-    "prhost/opencommerce-theme-default": "dev-master"
+    "newcart/system": "dev-master",
+    "newcart/opencart": "dev-master",
+    "newcart/theme-default": "dev-master"
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/prhost/opencommerce-theme-default.git"
+      "url": "https://github.com/newcart/theme-default.git"
     }
   ]
 }
