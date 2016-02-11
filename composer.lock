@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8bd8c1bbd78e4409b17c6491cb1fda54",
-    "content-hash": "a6ee19ff2b16e5422d1d03628bc55db0",
+    "hash": "e0b4075aa3c7d6b2385121b17b17338d",
+    "content-hash": "c5f9e9e26c851b9b86faa8125b04a7db",
     "packages": [
         {
             "name": "hassankhan/config",
@@ -66,16 +66,16 @@
         },
         {
             "name": "newcart/opencart",
-            "version": "2.0.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "768560149c36c0f35ecda01fff3485e9b6046efb"
+                "reference": "89f452a4556e5ef7f33e2a22c522f06f0692c8de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/768560149c36c0f35ecda01fff3485e9b6046efb",
-                "reference": "768560149c36c0f35ecda01fff3485e9b6046efb",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/89f452a4556e5ef7f33e2a22c522f06f0692c8de",
+                "reference": "89f452a4556e5ef7f33e2a22c522f06f0692c8de",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -96,8 +96,8 @@
                     "email": "prhost@prhost.com.br"
                 }
             ],
-            "description": "NewCart Ecommerce Opencart",
-            "time": "2016-02-10 23:42:47"
+            "description": "NewCart Ecommerce Opencart v2.0.0.0",
+            "time": "2016-02-10 23:30:36"
         },
         {
             "name": "newcart/system",
