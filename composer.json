@@ -11,13 +11,18 @@
   ],
   "require": {
     "newcart/system": "dev-master",
-    "newcart/opencart": "dev-master",
-    "newcart/theme-default": "dev-master"
+    "newcart/opencart": "2.0.0.x-dev",
+    "newcart/theme-default": "dev-master",
+    "newcart/theme-default-twig": "dev-master"
   },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/newcart/theme-default.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/newcart/theme-default-twig.git"
     }
   ]
 }

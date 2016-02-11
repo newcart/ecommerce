@@ -13,7 +13,10 @@ require_once(DIR_ROOT . '/core/constants.php');
 require_once(DIR_ROOT . '/config/database.php');
 
 // VirtualQMOD
-\Prhost\System\Vqmod\Vqmod::bootup(DIR_STORAGE);
+if(ENABLE_VQMOD) {
+    class_alias('Newcart\System\Vqmod\Vqmod', 'Vqmod');
+    Vqmod::bootup(DIR_STORAGE);
+}
 
 //Bootstrap
 require_once(DIR_APPLICATION . 'bootstrap.php');
