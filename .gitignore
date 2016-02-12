@@ -206,3 +206,6 @@ theme/
 ### Config ###
 config/*
 !config/*.dist
+
+### storage ###
+storage/*

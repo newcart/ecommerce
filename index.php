@@ -2,12 +2,11 @@
 
 define('DIR_ROOT', realpath(__DIR__ . '/'));
 
+//Composer autoload
+require_once(DIR_ROOT . '/vendor/autoload.php');
+
 // Load
-if (is_file(DIR_ROOT . '/load.php')) {
-    require_once(DIR_ROOT . '/load.php');
-} else {
-    throw new Exception("Load file required");
-}
+require_once(DIR_ROOT . '/vendor/newcart/system/src/Newcart/System/load.php');
 
 // Dispatch
 $controller->dispatch($action, new Action('error/not_found'));
