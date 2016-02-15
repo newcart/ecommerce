@@ -70,12 +70,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "89f452a4556e5ef7f33e2a22c522f06f0692c8de"
+                "reference": "b5acb755d95505d2ce0e7878641ab3dade8f1c91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/89f452a4556e5ef7f33e2a22c522f06f0692c8de",
-                "reference": "89f452a4556e5ef7f33e2a22c522f06f0692c8de",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/b5acb755d95505d2ce0e7878641ab3dade8f1c91",
+                "reference": "b5acb755d95505d2ce0e7878641ab3dade8f1c91",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -96,8 +96,8 @@
                     "email": "prhost@prhost.com.br"
                 }
             ],
-            "description": "NewCart Ecommerce Opencart v2.0.0.0",
-            "time": "2016-02-10 23:30:36"
+            "description": "NewCart Ecommerce Opencart",
+            "time": "2016-02-13 15:08:44"
         },
         {
             "name": "newcart/system",
@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "2be8bfc984f9b8f596f9d30e74672d0b72b0d946"
+                "reference": "e304e9158310bbe974622ef75dd3965c7228cb5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/2be8bfc984f9b8f596f9d30e74672d0b72b0d946",
-                "reference": "2be8bfc984f9b8f596f9d30e74672d0b72b0d946",
+                "url": "https://api.github.com/repos/newcart/system/zipball/e304e9158310bbe974622ef75dd3965c7228cb5f",
+                "reference": "e304e9158310bbe974622ef75dd3965c7228cb5f",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 }
             ],
             "description": "Newcart ecommerce System",
-            "time": "2016-02-11 21:45:56"
+            "time": "2016-02-12 23:48:23"
         },
         {
             "name": "newcart/theme-default",
@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/theme-default-twig.git",
-                "reference": "cd2aa274ab5c92469b34f185c81cc059cb37e10f"
+                "reference": "56914fea71f5320682c2b67a9a96e570b622be49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/theme-default-twig/zipball/cd2aa274ab5c92469b34f185c81cc059cb37e10f",
-                "reference": "cd2aa274ab5c92469b34f185c81cc059cb37e10f",
+                "url": "https://api.github.com/repos/newcart/theme-default-twig/zipball/56914fea71f5320682c2b67a9a96e570b622be49",
+                "reference": "56914fea71f5320682c2b67a9a96e570b622be49",
                 "shasum": ""
             },
             "type": "newcart-theme",
@@ -204,7 +204,7 @@
                 "source": "https://github.com/newcart/theme-default-twig/tree/master",
                 "issues": "https://github.com/newcart/theme-default-twig/issues"
             },
-            "time": "2016-02-10 23:50:36"
+            "time": "2016-02-15 12:09:23"
         },
         {
             "name": "twig/twig",
