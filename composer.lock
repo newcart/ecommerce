@@ -70,12 +70,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "b5acb755d95505d2ce0e7878641ab3dade8f1c91"
+                "reference": "436d63b557f80014de83bdd83ebb831d52307128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/b5acb755d95505d2ce0e7878641ab3dade8f1c91",
-                "reference": "b5acb755d95505d2ce0e7878641ab3dade8f1c91",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/436d63b557f80014de83bdd83ebb831d52307128",
+                "reference": "436d63b557f80014de83bdd83ebb831d52307128",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -97,7 +97,7 @@
                 }
             ],
             "description": "NewCart Ecommerce Opencart",
-            "time": "2016-02-13 15:08:44"
+            "time": "2016-02-15 23:49:15"
         },
         {
             "name": "newcart/system",
@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "e304e9158310bbe974622ef75dd3965c7228cb5f"
+                "reference": "16cb79e24d911de59029fb0f4251106f02c4d884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/e304e9158310bbe974622ef75dd3965c7228cb5f",
-                "reference": "e304e9158310bbe974622ef75dd3965c7228cb5f",
+                "url": "https://api.github.com/repos/newcart/system/zipball/16cb79e24d911de59029fb0f4251106f02c4d884",
+                "reference": "16cb79e24d911de59029fb0f4251106f02c4d884",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 }
             ],
             "description": "Newcart ecommerce System",
-            "time": "2016-02-12 23:48:23"
+            "time": "2016-02-15 23:49:58"
         },
         {
             "name": "newcart/theme-default",

@@ -23,6 +23,14 @@
     {
       "type": "vcs",
       "url": "https://github.com/newcart/theme-default-twig.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/newcart/system.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/newcart/opencart.git"
     }
   ]
 }
