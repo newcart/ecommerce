@@ -70,12 +70,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "d2fcf846f754a2515c07e818b967788b578a2ef2"
+                "reference": "40712aa62727f9826af252c2749c7d7938aca123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/d2fcf846f754a2515c07e818b967788b578a2ef2",
-                "reference": "d2fcf846f754a2515c07e818b967788b578a2ef2",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/40712aa62727f9826af252c2749c7d7938aca123",
+                "reference": "40712aa62727f9826af252c2749c7d7938aca123",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -100,7 +100,7 @@
                 "source": "https://github.com/newcart/opencart/tree/develop",
                 "issues": "https://github.com/newcart/opencart/issues"
             },
-            "time": "2016-02-16 22:38:48"
+            "time": "2016-02-16 22:56:54"
         },
         {
             "name": "newcart/system",
