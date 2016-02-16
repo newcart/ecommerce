@@ -11,7 +11,7 @@
   ],
   "require": {
     "newcart/system": "dev-master",
-    "newcart/opencart": "dev-master",
+    "newcart/opencart": "dev-develop",
     "newcart/theme-default": "dev-master",
     "newcart/theme-default-twig": "dev-master"
   },

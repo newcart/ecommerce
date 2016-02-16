@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0b4075aa3c7d6b2385121b17b17338d",
-    "content-hash": "c5f9e9e26c851b9b86faa8125b04a7db",
+    "hash": "7bb13681743cf753a5855384ffda901e",
+    "content-hash": "93b2ea3c443bf33e7dc2c33394feaaa8",
     "packages": [
         {
             "name": "hassankhan/config",
@@ -66,16 +66,16 @@
         },
         {
             "name": "newcart/opencart",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "436d63b557f80014de83bdd83ebb831d52307128"
+                "reference": "d2fcf846f754a2515c07e818b967788b578a2ef2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/436d63b557f80014de83bdd83ebb831d52307128",
-                "reference": "436d63b557f80014de83bdd83ebb831d52307128",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/d2fcf846f754a2515c07e818b967788b578a2ef2",
+                "reference": "d2fcf846f754a2515c07e818b967788b578a2ef2",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -86,7 +86,6 @@
                     "Core\\System\\": "system/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
@@ -97,7 +96,11 @@
                 }
             ],
             "description": "NewCart Ecommerce Opencart",
-            "time": "2016-02-15 23:49:15"
+            "support": {
+                "source": "https://github.com/newcart/opencart/tree/develop",
+                "issues": "https://github.com/newcart/opencart/issues"
+            },
+            "time": "2016-02-16 22:38:48"
         },
         {
             "name": "newcart/system",
@@ -105,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "16cb79e24d911de59029fb0f4251106f02c4d884"
+                "reference": "a62d220ffd979addfc76d006949770640bddb604"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/16cb79e24d911de59029fb0f4251106f02c4d884",
-                "reference": "16cb79e24d911de59029fb0f4251106f02c4d884",
+                "url": "https://api.github.com/repos/newcart/system/zipball/a62d220ffd979addfc76d006949770640bddb604",
+                "reference": "a62d220ffd979addfc76d006949770640bddb604",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +134,6 @@
                     "Newcart\\System": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -142,7 +144,11 @@
                 }
             ],
             "description": "Newcart ecommerce System",
-            "time": "2016-02-15 23:49:58"
+            "support": {
+                "source": "https://github.com/newcart/system/tree/master",
+                "issues": "https://github.com/newcart/system/issues"
+            },
+            "time": "2016-02-16 10:34:37"
         },
         {
             "name": "newcart/theme-default",
