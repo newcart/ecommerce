@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7bb13681743cf753a5855384ffda901e",
-    "content-hash": "93b2ea3c443bf33e7dc2c33394feaaa8",
+    "hash": "4dd7ff3610aa0cc6c4499f5323048acc",
+    "content-hash": "4a850c63205c941625bae3b69eeae247",
     "packages": [
         {
             "name": "hassankhan/config",
@@ -152,16 +152,16 @@
         },
         {
             "name": "newcart/theme-default",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/theme-default.git",
-                "reference": "f8962e70e09c8f9429838fdf207bb882f967a6bb"
+                "reference": "68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/theme-default/zipball/f8962e70e09c8f9429838fdf207bb882f967a6bb",
-                "reference": "f8962e70e09c8f9429838fdf207bb882f967a6bb",
+                "url": "https://api.github.com/repos/newcart/theme-default/zipball/68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9",
+                "reference": "68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9",
                 "shasum": ""
             },
             "type": "newcart-theme",
@@ -176,10 +176,10 @@
             ],
             "description": "Newcart Theme default",
             "support": {
-                "source": "https://github.com/newcart/theme-default/tree/master",
+                "source": "https://github.com/newcart/theme-default/tree/develop",
                 "issues": "https://github.com/newcart/theme-default/issues"
             },
-            "time": "2016-02-10 23:50:48"
+            "time": "2016-02-16 22:52:27"
         },
         {
             "name": "newcart/theme-default-twig",
