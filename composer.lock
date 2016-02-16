@@ -156,12 +156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/theme-default.git",
-                "reference": "68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9"
+                "reference": "6732689f2ed827d42fb2193c8eee9b5b3792cfa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/theme-default/zipball/68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9",
-                "reference": "68a51dd8484fb3cfc67fb870dbb46dbf5a59e3c9",
+                "url": "https://api.github.com/repos/newcart/theme-default/zipball/6732689f2ed827d42fb2193c8eee9b5b3792cfa3",
+                "reference": "6732689f2ed827d42fb2193c8eee9b5b3792cfa3",
                 "shasum": ""
             },
             "type": "newcart-theme",
@@ -179,7 +179,7 @@
                 "source": "https://github.com/newcart/theme-default/tree/develop",
                 "issues": "https://github.com/newcart/theme-default/issues"
             },
-            "time": "2016-02-16 22:52:27"
+            "time": "2016-02-16 23:57:14"
         },
         {
             "name": "newcart/theme-default-twig",
