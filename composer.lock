@@ -124,12 +124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "b59321a17f3e3ebc14f2bbbf73b4d065a88cf3f6"
+                "reference": "dc03e97371e37172ff94547980f898659de76ffc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/b59321a17f3e3ebc14f2bbbf73b4d065a88cf3f6",
-                "reference": "b59321a17f3e3ebc14f2bbbf73b4d065a88cf3f6",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/dc03e97371e37172ff94547980f898659de76ffc",
+                "reference": "dc03e97371e37172ff94547980f898659de76ffc",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-02-10 14:20:03"
+            "time": "2016-02-23 21:19:12"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -290,12 +290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "40712aa62727f9826af252c2749c7d7938aca123"
+                "reference": "0e92841a0a3f228b07043e6f9284f253d113e2f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/40712aa62727f9826af252c2749c7d7938aca123",
-                "reference": "40712aa62727f9826af252c2749c7d7938aca123",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/0e92841a0a3f228b07043e6f9284f253d113e2f6",
+                "reference": "0e92841a0a3f228b07043e6f9284f253d113e2f6",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -320,7 +320,7 @@
                 "source": "https://github.com/newcart/opencart/tree/develop",
                 "issues": "https://github.com/newcart/opencart/issues"
             },
-            "time": "2016-02-16 22:56:54"
+            "time": "2016-02-24 00:49:37"
         },
         {
             "name": "newcart/system",
@@ -328,12 +328,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "a62d220ffd979addfc76d006949770640bddb604"
+                "reference": "a7bad9658f07aebaf3b1838c53a04bb7cc82b782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/a62d220ffd979addfc76d006949770640bddb604",
-                "reference": "a62d220ffd979addfc76d006949770640bddb604",
+                "url": "https://api.github.com/repos/newcart/system/zipball/a7bad9658f07aebaf3b1838c53a04bb7cc82b782",
+                "reference": "a7bad9658f07aebaf3b1838c53a04bb7cc82b782",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
                 "source": "https://github.com/newcart/system/tree/master",
                 "issues": "https://github.com/newcart/system/issues"
             },
-            "time": "2016-02-16 10:34:37"
+            "time": "2016-02-24 00:51:17"
         },
         {
             "name": "newcart/theme-default",
@@ -407,12 +407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/theme-default-twig.git",
-                "reference": "56914fea71f5320682c2b67a9a96e570b622be49"
+                "reference": "5248f23a2cdbdc7f911ba2db48711539b235b989"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/theme-default-twig/zipball/56914fea71f5320682c2b67a9a96e570b622be49",
-                "reference": "56914fea71f5320682c2b67a9a96e570b622be49",
+                "url": "https://api.github.com/repos/newcart/theme-default-twig/zipball/5248f23a2cdbdc7f911ba2db48711539b235b989",
+                "reference": "5248f23a2cdbdc7f911ba2db48711539b235b989",
                 "shasum": ""
             },
             "type": "newcart-theme",
@@ -430,7 +430,7 @@
                 "source": "https://github.com/newcart/theme-default-twig/tree/master",
                 "issues": "https://github.com/newcart/theme-default-twig/issues"
             },
-            "time": "2016-02-15 12:09:23"
+            "time": "2016-02-24 01:54:21"
         },
         {
             "name": "psr/http-message",
