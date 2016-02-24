@@ -8,3 +8,4 @@ Opencommerce
 * Wiki como converter extensão oc para newcart
 * Wiki como converter tema oc para newcart
 * Integrar com extension store do opencart.com (futuramente)
+* Monolog
