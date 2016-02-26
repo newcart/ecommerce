@@ -328,12 +328,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "a412e3eaa0dc35d80ce3dd35f2ab863cead7c665"
+                "reference": "660fdde84904fea49865f6f741ac2e61d703c8ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/a412e3eaa0dc35d80ce3dd35f2ab863cead7c665",
-                "reference": "a412e3eaa0dc35d80ce3dd35f2ab863cead7c665",
+                "url": "https://api.github.com/repos/newcart/system/zipball/660fdde84904fea49865f6f741ac2e61d703c8ce",
+                "reference": "660fdde84904fea49865f6f741ac2e61d703c8ce",
                 "shasum": ""
             },
             "require": {
@@ -342,6 +342,9 @@
                 "symfony/console": "^2.7",
                 "twig/twig": "^1.24"
             },
+            "bin": [
+                "bin/newcart"
+            ],
             "type": "composer-plugin",
             "extra": {
                 "class": [
@@ -356,7 +359,7 @@
                 }
             },
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -369,7 +372,7 @@
                 "source": "https://github.com/newcart/system/tree/master",
                 "issues": "https://github.com/newcart/system/issues"
             },
-            "time": "2016-02-26 00:15:16"
+            "time": "2016-02-26 00:18:12"
         },
         {
             "name": "newcart/theme-default",
