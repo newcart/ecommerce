@@ -290,12 +290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/opencart.git",
-                "reference": "c9fba49759a157b13ad18c83672577b6ad427ce8"
+                "reference": "8101da88c577f2d3903a7fbf67a71a61ba0fddcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/opencart/zipball/c9fba49759a157b13ad18c83672577b6ad427ce8",
-                "reference": "c9fba49759a157b13ad18c83672577b6ad427ce8",
+                "url": "https://api.github.com/repos/newcart/opencart/zipball/8101da88c577f2d3903a7fbf67a71a61ba0fddcb",
+                "reference": "8101da88c577f2d3903a7fbf67a71a61ba0fddcb",
                 "shasum": ""
             },
             "type": "newcart-opencart",
@@ -320,7 +320,7 @@
                 "source": "https://github.com/newcart/opencart/tree/develop",
                 "issues": "https://github.com/newcart/opencart/issues"
             },
-            "time": "2016-02-24 23:59:39"
+            "time": "2016-02-26 00:15:15"
         },
         {
             "name": "newcart/system",
@@ -328,17 +328,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newcart/system.git",
-                "reference": "94f4ea83b4fd68456b7feb5cf2bd939c37217fff"
+                "reference": "a412e3eaa0dc35d80ce3dd35f2ab863cead7c665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/94f4ea83b4fd68456b7feb5cf2bd939c37217fff",
-                "reference": "94f4ea83b4fd68456b7feb5cf2bd939c37217fff",
+                "url": "https://api.github.com/repos/newcart/system/zipball/a412e3eaa0dc35d80ce3dd35f2ab863cead7c665",
+                "reference": "a412e3eaa0dc35d80ce3dd35f2ab863cead7c665",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
                 "hassankhan/config": "^0.10.0",
+                "symfony/console": "^2.7",
                 "twig/twig": "^1.24"
             },
             "type": "composer-plugin",
@@ -368,7 +369,7 @@
                 "source": "https://github.com/newcart/system/tree/master",
                 "issues": "https://github.com/newcart/system/issues"
             },
-            "time": "2016-02-24 23:59:39"
+            "time": "2016-02-26 00:15:16"
         },
         {
             "name": "newcart/theme-default",
@@ -537,6 +538,66 @@
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
             "time": "2016-02-04 12:57:09"
+        },
+        {
+            "name": "symfony/console",
+            "version": "2.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "fa1df6d8b7dea4a86b5297ba68fbbbb67343d2cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fa1df6d8b7dea4a86b5297ba68fbbbb67343d2cc",
+                "reference": "fa1df6d8b7dea4a86b5297ba68fbbbb67343d2cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1|~3.0.0",
+                "symfony/process": "~2.1|~3.0.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-02-22 15:02:30"
         },
         {
             "name": "symfony/css-selector",
