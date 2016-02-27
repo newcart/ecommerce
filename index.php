@@ -1,4 +1,6 @@
 <?php
+
+// Root directory project
 define('DIR_ROOT', realpath(__DIR__));
 
 //Composer autoload
