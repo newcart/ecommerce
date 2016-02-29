@@ -15,6 +15,16 @@ Options -Indexes
  Deny from all
 </FilesMatch>
 
+##
+## Black list protected files
+##
+#RewriteRule ^themes/.*/(layouts|pages|partials)/.*.htm index.php [L,NC]
+RewriteRule ^config/.* index.php [L,NC]
+RewriteRule ^vendor/.* index.php [L,NC]
+RewriteRule ^storage/cache/.* index.php [L,NC]
+RewriteRule ^storage/logs/.* index.php [L,NC]
+RewriteRule ^storage/vqmod/.* index.php [L,NC]
+
 #RewriteEngine on
 #RewriteRule ^admin(.*) opencart/admin$1
 

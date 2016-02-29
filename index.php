@@ -16,6 +16,8 @@ $route = isset($output['_route_']) ? $output['_route_'] : '';
 //Set environment
 if (substr($route, 0, strlen($config->get('admin_path'))) == $config->get('admin_path')) {
     $config->set('environment', 'admin');
+} elseif (substr($route, 0, strlen('core/admin')) == 'core/admin') {
+    $config->set('environment', 'admin');
 } else {
     $config->set('environment', 'catalog');
 }

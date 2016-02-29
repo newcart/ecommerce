@@ -12,3 +12,6 @@ Projeto que tem por finalidade obter uma liberdade um pouco maior para melhorias
 * Monolog
 * Extension class and Theme class
 * Rota dinamica para admin
+* Dashboard dinamico painel
+* Menu dinamico painel
+* Mudanças no htaccess :s
