@@ -12,7 +12,8 @@
   "require": {
     "newcart/system": "dev-master",
     "newcart/theme-default": "dev-develop",
-    "newcart/theme-default-twig": "dev-master"
+    "newcart/theme-default-twig": "dev-master",
+    "foolz/plugin": "^1.0"
   },
   "repositories": [
     {

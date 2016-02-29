@@ -4,9 +4,93 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25d69a6a082e8732e39a0077b939a0c8",
-    "content-hash": "9217dc65021707112374f15bdf227fbe",
+    "hash": "9f4e5e4d78b77c7f8ec306fb2f2917a0",
+    "content-hash": "bddfb549c3ef6bbc843bc1b9eadea05c",
     "packages": [
+        {
+            "name": "foolz/package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FoolCode/Package.git",
+                "reference": "f777b3ef30393d1fdf45e6c8b7bfce988b2cd063"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FoolCode/Package/zipball/f777b3ef30393d1fdf45e6c8b7bfce988b2cd063",
+                "reference": "f777b3ef30393d1fdf45e6c8b7bfce988b2cd063",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foolz\\Package\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "foolz",
+                    "email": "support@foolz.us"
+                }
+            ],
+            "description": "A package system for managing things like plugins, in Composer format.",
+            "homepage": "http://www.foolz.us",
+            "keywords": [
+                "composer",
+                "package"
+            ],
+            "time": "2015-01-22 09:15:48"
+        },
+        {
+            "name": "foolz/plugin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FoolCode/Plugin.git",
+                "reference": "4421fc6721b38191fe3461717be998795e0f4d1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FoolCode/Plugin/zipball/4421fc6721b38191fe3461717be998795e0f4d1a",
+                "reference": "4421fc6721b38191fe3461717be998795e0f4d1a",
+                "shasum": ""
+            },
+            "require": {
+                "foolz/package": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Foolz\\Plugin": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "foolz",
+                    "email": "support@foolz.us"
+                }
+            ],
+            "description": "A plugin system for PHP, with cascading events.",
+            "homepage": "http://www.foolz.us",
+            "keywords": [
+                "callback",
+                "event",
+                "plugin"
+            ],
+            "time": "2014-04-29 21:30:12"
+        },
         {
             "name": "hassankhan/config",
             "version": "0.10.0",
@@ -227,7 +311,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/fa1df6d8b7dea4a86b5297ba68fbbbb67343d2cc",
+                "url": "https://api.github.com/repos/symfony/console/zipball/56cc5caf051189720b8de974e4746090aaa10d44",
                 "reference": "fa1df6d8b7dea4a86b5297ba68fbbbb67343d2cc",
                 "shasum": ""
             },
