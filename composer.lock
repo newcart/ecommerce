@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99b39a5d60e0873b45271f312d17bdd1",
-    "content-hash": "9217dc65021707112374f15bdf227fbe",
+    "hash": "8a88219192dc74b28de01183514a060e",
+    "content-hash": "dc735cc05ce6c875e3183216c1506135",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -661,6 +661,52 @@
             "time": "2015-12-09 15:24:53"
         },
         {
+            "name": "imangazaliev/didom",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Imangazaliev/DiDOM.git",
+                "reference": "baff7990cdf836e36714387a05ffdb2c3e1f463e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Imangazaliev/DiDOM/zipball/baff7990cdf836e36714387a05ffdb2c3e1f463e",
+                "reference": "baff7990cdf836e36714387a05ffdb2c3e1f463e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DiDom\\": "src/DiDom/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Imangazaliev Muhammad",
+                    "email": "imangazalievm@gmail.com"
+                }
+            ],
+            "description": "Simple and fast HTML parser",
+            "homepage": "https://github.com/Imangazaliev/DiDOM",
+            "keywords": [
+                "didom",
+                "html",
+                "parser",
+                "xml"
+            ],
+            "time": "2016-03-05 14:35:15"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "1.21.0",
             "source": {
@@ -755,7 +801,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newcart/system/zipball/b4636790b38245c204276ff182029982761d66c6",
+                "url": "https://api.github.com/repos/newcart/system/zipball/6caa5d07977e51cabeb53eb96305c20d40c5e19f",
                 "reference": "b4636790b38245c204276ff182029982761d66c6",
                 "shasum": ""
             },
@@ -879,7 +925,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/56cc5caf051189720b8de974e4746090aaa10d44",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c25e03505656652c75cc7aa6ce65e3fec6ab14b4",
                 "reference": "56cc5caf051189720b8de974e4746090aaa10d44",
                 "shasum": ""
             },
@@ -988,7 +1034,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/6aeb70d26da8f30753111b3f9cf47eb0421c0735",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/80128442fc6a7324536358691909e90a81e9bd94",
                 "reference": "6aeb70d26da8f30753111b3f9cf47eb0421c0735",
                 "shasum": ""
             },
@@ -1102,7 +1148,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/4c61cf815af17eee4cebf0e4c66f56a2f704cfd8",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/2db15c3a9409aa357e109ca729c89839b32e3517",
                 "reference": "4c61cf815af17eee4cebf0e4c66f56a2f704cfd8",
                 "shasum": ""
             },

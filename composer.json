@@ -12,7 +12,8 @@
   "require": {
     "newcart/system": "dev-master",
     "newcart/theme-default": "dev-develop",
-    "newcart/theme-default-twig": "dev-master"
+    "newcart/theme-default-twig": "dev-master",
+    "imangazaliev/didom": "^1.6"
   },
   "repositories": [
     {

@@ -4,7 +4,7 @@ Projeto que tem por finalidade obter uma liberdade um pouco maior para melhorias
 
 ## TODO LIST
 
-- [ ] Driver Eloquent
+- [x] Driver Eloquent
 - [ ] Wiki sobre theme library do newcart/system
 - [ ] Wiki como converter extensão oc para newcart
 - [ ] Wiki como converter tema oc para newcart
@@ -17,3 +17,4 @@ Projeto que tem por finalidade obter uma liberdade um pouco maior para melhorias
 - [ ] Config dinamico painel
 - [ ] Mudanças no htaccess :s
 - [ ] Laravel Validator
+- [ ] Integrar ci migration nas extensoes
