@@ -1,0 +1,48 @@
+<?php
+
+return [
+
+    /**
+     * Define o nome da pasta do admin
+     */
+    'admin_path' => 'painel',
+
+    /**
+     * Define possiveis pasta do admin a serem procuradas nas extensoes.
+     */
+    'admin_extensions_paths' => [
+        'admin',
+        'painel'
+    ],
+
+    /**
+     * Nome da pasta das extensoes
+     */
+    'extension_path' => 'extensions',
+
+    /**
+     * Define habilitar vqmod
+     */
+    'enable_vqmod' => false,
+
+    /**
+     * Habilitar cache
+     */
+    'enable_cache' => false,
+
+    /**
+     * Driver do cache
+     * (file|mem|apc)
+     */
+    'cache_driver' => 'file',
+
+    /**
+     * Linguagem padrao
+     */
+    'default_language' => 'english',
+
+    /**
+     * Pasta das imagens do media manager
+     */
+    'image_path' => 'storage/image',
+];

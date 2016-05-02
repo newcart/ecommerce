@@ -1,0 +1,24 @@
+<?php
+
+return [
+
+    /**
+     * Database configs
+     */
+
+    /**
+     * Drivers disponiveis
+     * mysql = MySQL
+     * pgsql = Postgres
+     * sqlite = SQLite
+     * sqlsrv = SQL Server
+     */
+    'db_driver' => 'mysql',
+
+    'db_hostname' => 'localhost',
+    'db_username' => 'root',
+    'db_password' => 'root',
+    'db_schema' => 'newcart_opencart2102',
+    'db_port' => '3306',
+    'db_prefix' => 'oc_',
+];

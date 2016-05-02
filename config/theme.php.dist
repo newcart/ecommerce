@@ -1,0 +1,19 @@
+<?php
+
+return [
+
+    /**
+     * Define assets path name
+     */
+    'assets_path' => 'assets',
+
+    /**
+     * Define theme path
+     */
+    'theme_path' => 'theme',
+
+    /**
+     * Define o tema padrao
+     */
+    'theme_default' => 'newcart/theme-default'
+];

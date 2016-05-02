@@ -1,0 +1,27 @@
+<?php
+
+return [
+
+    /**
+     * Habilita o Twig parser
+     */
+    'enable_twig' => true,
+
+    /**
+     * Pasta do cache do twig ou false para desativar cache
+     * A pasta e apartir da storage/
+     * (path_cache|false)
+     */
+    'twig_cache' => false,
+
+    /**
+     * Enable twig debug
+     */
+    'twig_debug' => false,
+
+    /**
+     * Enable twig auto escape
+     */
+    'twig_autoescape' => false,
+
+];
